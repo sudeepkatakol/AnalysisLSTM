@@ -92,7 +92,7 @@ def main():
     print("Vectorizing training set...")
     x, y = vectorization(X, Y, n_x = len(chars), char_indices = char_indices) 
     print("Loading model...")
-    model = load_model('PerfectModel_2.h5')
+    model = load_model('ShakespeareModel.h5')
     return model, Tx, X, Y, x, y, chars, char_indices, indices_char
 
 
